@@ -9,8 +9,8 @@ using SchoolManager.Data;
 namespace SchoolManager.Migrations
 {
     [DbContext(typeof(SchoolDbContext))]
-    [Migration("20201015140617_TestRelations")]
-    partial class TestRelations
+    [Migration("20201016113253_Teacher")]
+    partial class Teacher
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
